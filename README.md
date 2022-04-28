@@ -21,5 +21,5 @@ https://user-images.githubusercontent.com/72432569/165794392-b53c946e-4e17-4f43-
 ## Step 3
 ### Run the project 
 ```bash
- streamlit run loveletterapp.py
+ streamlit run loverletter.py
 ```
