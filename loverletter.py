@@ -1,6 +1,6 @@
 import streamlit as st
 import openai
-
+openai.api_key = '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'
 def generate_email( userPrompt ="Write me a professionally sounding email", start="Dear"):
         """Returns a generated an email using GPT3 with a certain prompt and starting sentence"""
 
