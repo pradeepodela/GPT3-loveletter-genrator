@@ -8,13 +8,13 @@ def generate_email( userPrompt ="Write me a professionally sounding email", star
         engine="davinci",
         prompt=userPrompt + "\n\n" + start,
         temperature=0.71,
-        max_tokens=150,
+        max_tokens=250,
         top_p=1,
         frequency_penalty=0.36,
         presence_penalty=0.75
         )
         return response.get("choices")[0]['text']
-st.title("Love leter  Generator App")
+st.title(" Pradeep's Love leter  Generator App")
 
 
 with st.form(key="form"):
